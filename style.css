@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.main {
+       width: 100%;
+       height: 100vh;
+       background: linear-gradient(to top, rgba(0,0,0,0.5) 50%,rgba(0,0,0,0.5) 50% ), url(image.jpg);
+       background-position: center;
+       background-size: cover;
+      
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+ .icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+ }
+ .logo{
+    color: green;
+    font-size: 35px;
+    font-family: Arial;
+    float: left;
+    padding-left: 10px;
+    padding-top: 20px;
+ } 
+ .menu{
+    width: 100px;
+    height: 70px;
+    float: left;
+ }
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 30px;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    transition: o.4s case-in-out;
+}
+ul li a:hover{
+    color: green;
+}
+.search{
+    float: left;
+    width: 330px;
+    margin-left: 400px;
+    margin-top: 27px;
+}
+.sch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid green;
+    color:white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: green;
+    border: 1px solid green;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.sch:focus{
+    outline: none;
+}
+.content{
+    width: 100%;
+    float: left;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+}
+.content h1{
+    font-family: Arial, ;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+  
+}
+.pra{
+    font-family: Arial;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+
+}
+.cn{
+    border: 1px solid black;
+    padding: auto;
+    width: 100px;
+    height: 40px;
+    background: green;
+    cursor: pointer;
+    font-size:17px ;
+    transition: 0.3s ease;
+       
+
+}
+.cn:hover{
+    background: white;
+}
+.form{
+    width: 250;
+    height: 300px;
+    background: linear-gradient(to top, green );
+    position: absolute;
+    top:180px;
+    left:980px;
+    border-radius: 10px;
+    padding: 25px;
+
+
+}
+.form h2{
+    font-family: Arial;
+    font-size: 30px;
+    text-align: center;
+}
+.form input{
+    width: 200px;
+    height: 35px;
+    border-bottom: 1px solid black;
+    background: transparent;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn1{
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    font-size: Arial;
+
+   border-radius: 10px;
+   border: none;
+   margin-top: 25px;
+   transform: 0.4s ease;
+}
+.btn1:hover{
+    background-color: white;
+    color: green;
+}
+.link{
+        margin-top: 30px;
+}
+.icon1 ion-icon{
+            color:white;
+            font-size: 32px;
+            margin-right: 15px;
+            text-decoration: none;
+            margin-top: 30px;
+}
+.icon1 ion-icon:hover{
+    color: blue;
+}
+
+.signup{
+    text-align: center;
+}  
+
